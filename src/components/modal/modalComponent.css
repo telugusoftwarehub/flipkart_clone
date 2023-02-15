@@ -1,0 +1,57 @@
+ .modal {
+    width: 100%
+}
+.fk_modal{
+    width: 800px;
+}
+.fk_modal .modal-content{
+    border-radius: 3px;
+}
+.fk_modal .modal-header {
+    position: absolute;
+    right: -45px;
+    border: 0;
+    top: -13px;
+}
+.fk_modal .modal-header button {
+    color: #ffffff;
+}
+
+.fk_modal .modal-body {
+    padding: 0;
+    display: flex;
+}
+
+.fk_modal .left {
+    width: 40%;
+    background-color: #2874f0;
+    color: #ffffff;
+    padding: 20px;
+
+}
+
+.fk_modal .right {
+    width: 60%;
+    padding: 20px;
+
+}
+
+.fk_modal button.btn_otp {
+    background-color: #fb641b;
+    color: #ffffff;
+    border:none;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+    height: 48px;
+    width: 100%;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+
+.modalContainer {
+    min-width: 400px;
+    max-width: 90%;
+    min-height: 200px;
+    max-height: 90vh;
+}
+ 
