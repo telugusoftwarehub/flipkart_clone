@@ -1,18 +1,12 @@
-import logo from './logo.svg';
 import 'font-awesome/css/font-awesome.min.css';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import TopNav from './components/topNav'
+import Dashboard from './pages/dashboard/dashboard.component';
 
 function App() {
   return (
-    <div>
-      <div className="stickyNav">
-        <div className='container'>
-          <TopNav />
-        </div>
-      </div>
-    </div>
+    <Dashboard />
   );
 }
 
