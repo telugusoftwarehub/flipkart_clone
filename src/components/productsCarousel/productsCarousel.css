@@ -1,0 +1,19 @@
+.product {
+    flex-direction: column;
+}
+
+.product p{
+    text-align: center;
+}
+
+.product_wrap {
+    width: 100%;
+}
+.lSection {
+    width: 15%;
+}
+
+.rSection {
+    height: 200px;
+    width: 85%;
+}
