@@ -4,6 +4,9 @@ import 'react-multi-carousel/lib/styles.css';
 import './productsCarousel.css';
 
 const ProductsCarouselComponent = ({ products, responsive }) => {
+    if (!products) {
+        return <div>Loading products...</div>;
+    }
     console.log('products: ', products)
     return <div className="flex product_wrap">
         <div className="lSection">
