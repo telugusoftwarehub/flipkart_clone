@@ -1,0 +1,107 @@
+{
+    "electronics": {
+        "type": "electronics",
+        "desc": "Best Of Electronics",
+        "list": [{
+            "id": 1,
+            "name": "Monitors",
+            "image": "https://rukminim1.flixcart.com/image/200/200/l5ld8y80/monitor/l/k/s/-original-imagg897ufhyvwqq.jpeg",
+            "startPrice": "7949",
+            "brand": "Dell"
+        }, {
+            "id": 2,
+            "name": "Printers",
+            "image": "https://rukminim1.flixcart.com/image/200/200/kmp7ngw0/monitor/j/z/h/s2721hn-27-py0df-dell-original-imagfjphuywuh2a7.jpeg",
+            "startPrice": "10190",
+            "brand": "Brother"
+        }, {
+            "id": 3,
+            "name": "Projector",
+            "image": "https://rukminim1.flixcart.com/image/200/200/xif0q/projector/h/u/s/-original-imafwnfzxqp3yymc.jpeg",
+            "startPrice": "6990",
+            "brand": "Egate"
+        }, {
+            "id": 4,
+            "name": "Monitors",
+            "image": "https://rukminim1.flixcart.com/image/200/200/ke4kjgw0/printer/f/x/7/brother-dcp-b7500d-original-imafuvbyfgt5p9fr.jpeg",
+            "startPrice": "10190",
+            "brand": "Top Rated"
+        }, {
+            "id": 5,
+            "name": "Monitors",
+            "image": "https://rukminim1.flixcart.com/image/200/200/kura1e80/monitor/l/t/l/gw2280-full-hd-22-gw2280-benq-original-imag7t9tqskqfeen.jpeg",
+            "startPrice": "8999",
+            "brand": "acer"
+        }]
+    },
+    "toys": {
+        "type": "toys",
+        "desc": "Beauty, Food, Toys & more",
+        "list": [{
+            "id": 1,
+            "name": "Studios Headphoes",
+            "image": "https://rukminim1.flixcart.com/image/200/200/kawtvgw0/headphone/m/q/j/ath-m50x-professional-monitor-headphones-audio-technica-original-imafsdbhjbzxphf8.jpeg",
+            "startPrice": "80%",
+            "brand": "Explore Now"
+        }, {
+            "id": 2,
+            "name": "Printers",
+            "image": "https://rukminim1.flixcart.com/image/200/200/kmp7ngw0/monitor/j/z/h/s2721hn-27-py0df-dell-original-imagfjphuywuh2a7.jpeg",
+            "startPrice": "10190",
+            "brand": "Brother"
+        }, {
+            "id": 3,
+            "name": "Projector",
+            "image": "https://rukminim1.flixcart.com/image/200/200/xif0q/projector/h/u/s/-original-imafwnfzxqp3yymc.jpeg",
+            "startPrice": "6990",
+            "brand": "Egate"
+        }, {
+            "id": 4,
+            "name": "Monitors",
+            "image": "https://rukminim1.flixcart.com/image/200/200/ke4kjgw0/printer/f/x/7/brother-dcp-b7500d-original-imafuvbyfgt5p9fr.jpeg",
+            "startPrice": "10190",
+            "brand": "Top Rated"
+        }, {
+            "id": 5,
+            "name": "Monitors",
+            "image": "https://rukminim1.flixcart.com/image/200/200/kura1e80/monitor/l/t/l/gw2280-full-hd-22-gw2280-benq-original-imag7t9tqskqfeen.jpeg",
+            "startPrice": "8999",
+            "brand": "acer"
+        }]
+    },
+    "coolSummer": {
+        "type": "coolSummer",
+        "desc": "Shop for a Cool Summer",
+        "list": [{
+            "id": 1,
+            "name": "Studios Headphoes",
+            "image": "https://rukminim1.flixcart.com/image/200/200/kawtvgw0/headphone/m/q/j/ath-m50x-professional-monitor-headphones-audio-technica-original-imafsdbhjbzxphf8.jpeg",
+            "startPrice": "80%",
+            "brand": "Explore Now"
+        }, {
+            "id": 2,
+            "name": "Printers",
+            "image": "https://rukminim1.flixcart.com/image/200/200/kmp7ngw0/monitor/j/z/h/s2721hn-27-py0df-dell-original-imagfjphuywuh2a7.jpeg",
+            "startPrice": "10190",
+            "brand": "Brother"
+        }, {
+            "id": 3,
+            "name": "Projector",
+            "image": "https://rukminim1.flixcart.com/image/200/200/xif0q/projector/h/u/s/-original-imafwnfzxqp3yymc.jpeg",
+            "startPrice": "6990",
+            "brand": "Egate"
+        }, {
+            "id": 4,
+            "name": "Monitors",
+            "image": "https://rukminim1.flixcart.com/image/200/200/ke4kjgw0/printer/f/x/7/brother-dcp-b7500d-original-imafuvbyfgt5p9fr.jpeg",
+            "startPrice": "10190",
+            "brand": "Top Rated"
+        }, {
+            "id": 5,
+            "name": "Monitors",
+            "image": "https://rukminim1.flixcart.com/image/200/200/kura1e80/monitor/l/t/l/gw2280-full-hd-22-gw2280-benq-original-imag7t9tqskqfeen.jpeg",
+            "startPrice": "8999",
+            "brand": "acer"
+        }]
+    }
+}
