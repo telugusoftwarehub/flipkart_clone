@@ -13,7 +13,7 @@ const TopNavComponent = () => {
     ]
 
     return (
-        <>
+        <div class="container flex">
             <div className="logo flex">
                 <div className="logo_setting">
                     <a href="#"><img src={logo} width="75" /></a>
@@ -46,7 +46,7 @@ const TopNavComponent = () => {
                     )
                 })
             }
-        </>
+        </div>
     )
 }
 

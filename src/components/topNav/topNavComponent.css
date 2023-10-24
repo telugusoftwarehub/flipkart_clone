@@ -11,10 +11,9 @@
     font-size: 12px;
 }
 
-
 .logo {
     min-width: 137px;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
 }
 .logo_setting {
     display: flex;
@@ -29,6 +28,7 @@
     align-items: center;
     display: flex;
 }
+
 .loginBtn {
     min-width: 112px;
     flex: 0 0 auto;
@@ -37,6 +37,7 @@
     align-items: center;
     display: flex;
 }
+
 .loginBtn a {
     border: 0;
     color: #2874f0;
@@ -47,6 +48,7 @@
     padding: 5px 40px;
     border: 1px solid #dbdbdb;
 }
+
 .other_link {
     flex: 0 0 auto;
     margin: 0 20px;

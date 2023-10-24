@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from "react";
 import TopNav from "../../components/topNav";
-import Carousel from "../../components/carousel";
-import ProductsCarousel from "../../components/productsCarousel";
+import NavBar from '../../components/nav';
+
+// import Carousel from "../../components/carousel";
+// import ProductsCarousel from "../../components/productsCarousel";
 
 const DashboardPage = () => {
     const [allProducts, setAllProducts] = useState({})
@@ -18,11 +20,12 @@ const DashboardPage = () => {
         })
     }, [])
 
-    return (
+    return <>
         <div className="stickyNav">
             <TopNav />
         </div>
-    )
+        <NavBar />
+    </>
 }
 
 export default DashboardPage;
