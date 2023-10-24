@@ -22,16 +22,16 @@ const AllProductsPage = (props) => {
 
     return (
         <div className="productsView">
-            {/* {productsList()} */}
-            <p>{props.count && props.count}</p>
+            {productsList()}
+
+            {/* <p>{props.count && props.count}</p>
             <button onClick={() => props.countIncrement()}>Count Increment</button>
-            <button onClick={() => props.decrementCount()}>Count Decrement</button>
+            <button onClick={() => props.decrementCount()}>Count Decrement</button> */}
         </div>
     )
 }
 
 const mapStateToProps = (state) => {
-    console.log('state: ', state);
 
     return ({
         count: state.count
