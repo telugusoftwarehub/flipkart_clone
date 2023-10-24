@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import TopNav from "../../components/topNav";
 import Carousel from "../../components/carousel";
 import ProductsCarousel from "../../components/productsCarousel";
-// import Modal from "../../components/modal";
 
 const DashboardPage = () => {
     const [allProducts, setAllProducts] = useState({})
@@ -19,27 +18,11 @@ const DashboardPage = () => {
         })
     }, [])
 
-    return <div>
+    return (
         <div className="stickyNav">
-            <div className='container'>
-                <TopNav />
-            </div>
+            <TopNav />
         </div>
-        {/* <div className='container-fluid bodyContent'>
-            <Carousel />
-        </div>
-        <div className='container-fluid bodyContent' id="electronics">
-            <ProductsCarousel products={allProducts.electronics} />
-        </div>
-        <div className='container-fluid bodyContent' id="toys">
-            <ProductsCarousel products={allProducts.toys} />
-        </div>
-
-        <div className='container-fluid bodyContent' id="soolSummer">
-            <ProductsCarousel products={allProducts.coolSummer} />
-        </div> */}
-
-    </div>
+    )
 }
 
 export default DashboardPage;
