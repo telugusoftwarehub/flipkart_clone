@@ -17,16 +17,12 @@
   z-index: 10
 }
 
-
-.container-fluid {
-  width:100%;
-  margin: 0 auto;
-
-}
-
-
 .flex {
   display: flex;
+}
+
+.topNav {
+  padding-top: 57px;
 }
 
 a, img {
