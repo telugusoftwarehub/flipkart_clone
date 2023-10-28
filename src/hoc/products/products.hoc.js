@@ -8,7 +8,7 @@
 import React, { useEffect, useState } from "react";
 import { Card, CardBody, CardTitle, CardSubtitle, CardText, Button } from "reactstrap";
 import { useDispatch } from 'react-redux';
-import { shoppingCartCountIncrement } from "../../redux/actions/shoppingCartActions";
+import { shoppingCartCountIncrement, addToCartItem } from "../../redux/actions/shoppingCartActions";
 
 import "./products.hoc.css"
 
@@ -24,8 +24,9 @@ const ProductsHoc = (Title) => {
             })
     }, [])
 
-    const addToCart = () => {
+    const addToCart = (item) => {
         dispatch(shoppingCartCountIncrement());
+        dispatch(addToCartItem(item))
     }
 
     return () => {
@@ -50,7 +51,7 @@ const ProductsHoc = (Title) => {
                             <CardText>
                                 Some quick example text to build on the card title and make up the bulk of the card‘s content.
                             </CardText>
-                            <Button onClick={addToCart}>
+                            <Button onClick={() => addToCart(item)}>
                                 Add to Card
                             </Button>
                         </CardBody>

@@ -1,5 +1,6 @@
 const INCREMENT = "INCREMENT";
 const DECREMENT = "DECREMENT";
+const ADDTOCART = "ADDTOCART";
 
 const incrementCount = () => ({
     type: INCREMENT
@@ -15,10 +16,19 @@ const shoppingCartCountIncrement = () => {
     }
 }
 
+const addToCartItem = (product) => {
+    return {
+        type: ADDTOCART,
+        cartItems: product
+    }
+}
+
 export {
     INCREMENT,
     DECREMENT,
+    ADDTOCART,
     incrementCount,
     decrementCount,
-    shoppingCartCountIncrement
+    shoppingCartCountIncrement,
+    addToCartItem
 }
