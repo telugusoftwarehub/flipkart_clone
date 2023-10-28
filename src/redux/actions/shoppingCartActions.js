@@ -9,9 +9,16 @@ const decrementCount = () => ({
     type: DECREMENT
 })
 
+const shoppingCartCountIncrement = () => {
+    return {
+        type: INCREMENT
+    }
+}
+
 export {
     INCREMENT,
     DECREMENT,
     incrementCount,
-    decrementCount
+    decrementCount,
+    shoppingCartCountIncrement
 }

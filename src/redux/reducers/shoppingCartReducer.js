@@ -1,20 +1,15 @@
 import { INCREMENT, DECREMENT } from "../actions/shoppingCartActions";
 
 const initialState = {
-    count: 0
+    shoppingCartCount: 0
 }
 
 const shoppingCartReduer = (state = initialState, action) => {
     switch (action.type) {
         case INCREMENT:
             return {
-                ...state,
-                count: state.count +1
-            };
-        case DECREMENT:
-            return {
-                ...state,
-                count: state.count - 1
+                ...initialState,
+                shoppingCartCount: state.shoppingCartCount + 1
             }
         default:
             return state

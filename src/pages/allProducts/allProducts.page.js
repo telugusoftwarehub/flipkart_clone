@@ -6,14 +6,13 @@ import Title from "../../components/title";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './allProducts.page.css';
-import { incrementCount, decrementCount } from "../../redux/actions/shoppingCartActions";
 import TopNav from "../../components/topNav";
 import NavBar from '../../components/nav';
 
 
 const AllProductsPage = (props) => {
     const productsList = ProductsHoc(Title);
-    console.log('props: ', props)
+    
     // const [count, setCount] = useState(0);
 
     // const countIncrement = () => {
@@ -41,16 +40,8 @@ const AllProductsPage = (props) => {
     </>
 }
 
-const mapStateToProps = (state) => {
+const mapStateToProps = (state) => {}
 
-    return ({
-        count: state.count
-    })
-}
-
-const mapDispatchToProps = (dispatch) => ({
-    countIncrement: () => dispatch(incrementCount()),
-    decrementCount: () => dispatch(decrementCount())
-})
+const mapDispatchToProps = (dispatch) => ({})
 
 export default connect(mapStateToProps, mapDispatchToProps)(AllProductsPage);
