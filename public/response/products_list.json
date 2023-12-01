@@ -1,53 +1,87 @@
 {
-    "data": [{
-        "name": "realme 9 5G SE ",
-        "price": "₹18,999",
-        "option": "8 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
-        "image":"https://rukminim1.flixcart.com/image/300/300/l0jwbrk0/mobile/a/i/f/-original-imagcb65xhtbvfkx.jpeg?q=90"
-    },{
-        "name": "realme 9 5G SE ",
-        "price": "₹18,999",
-        "option": "8 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
-        "image":"https://rukminim1.flixcart.com/image/300/300/l0jwbrk0/mobile/a/i/f/-original-imagcb65xhtbvfkx.jpeg?q=90"
-    },{
-        "name": "realme 9 5G SE ",
-        "price": "₹18,999",
-        "option": "8 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
-        "image":"https://rukminim1.flixcart.com/image/300/300/l0jwbrk0/mobile/a/i/f/-original-imagcb65xhtbvfkx.jpeg?q=90"
-    },{
-        "name": "realme 9 5G SE ",
-        "price": "₹18,999",
-        "option": "8 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
-        "image":"https://rukminim1.flixcart.com/image/300/300/l0jwbrk0/mobile/a/i/f/-original-imagcb65xhtbvfkx.jpeg?q=90"
-    },{
-        "name": "realme 9 5G SE ",
-        "price": "₹18,999",
-        "option": "8 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
-        "image":"https://rukminim1.flixcart.com/image/300/300/l0jwbrk0/mobile/a/i/f/-original-imagcb65xhtbvfkx.jpeg?q=90"
-    },{
-        "name": "realme 9 5G SE ",
-        "price": "₹18,999",
-        "option": "8 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
-        "image":"https://rukminim1.flixcart.com/image/300/300/l0jwbrk0/mobile/a/i/f/-original-imagcb65xhtbvfkx.jpeg?q=90"
-    },{
-        "name": "realme 9 5G SE ",
-        "price": "₹18,999",
-        "option": "8 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
-        "image":"https://rukminim1.flixcart.com/image/300/300/l0jwbrk0/mobile/a/i/f/-original-imagcb65xhtbvfkx.jpeg?q=90"
-    },{
-        "name": "realme 9 5G SE ",
-        "price": "₹18,999",
-        "option": "8 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
-        "image":"https://rukminim1.flixcart.com/image/300/300/l0jwbrk0/mobile/a/i/f/-original-imagcb65xhtbvfkx.jpeg?q=90"
-    },{
-        "name": "realme 9 5G SE ",
-        "price": "₹18,999",
-        "option": "8 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
-        "image":"https://rukminim1.flixcart.com/image/300/300/l0jwbrk0/mobile/a/i/f/-original-imagcb65xhtbvfkx.jpeg?q=90"
-    },{
-        "name": "realme 9 5G SE ",
-        "price": "₹18,999",
-        "option": "8 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
-        "image":"https://rukminim1.flixcart.com/image/300/300/l0jwbrk0/mobile/a/i/f/-original-imagcb65xhtbvfkx.jpeg?q=90"
-    }]
-}
+    "products": [
+      {
+        "id": 1,
+        "title": "SAMSUNG Galaxy F34 5G (Mystic Green, 128 GB)",
+        "description": "An apple mobile which is nothing like apple",
+        "warranty": "1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for In-Box Accessories",
+        "price": "24,499",
+        "discountPercentage": "16,499",
+        "rating": 4.69,
+        "stock": 94,
+        "brand": "Apple",
+        "category": "smartphones",
+        "thumbnail": "...",
+        "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/n/w/e/-original-imagtyw9fdfnsune.jpeg?q=70"
+      },{
+        "id": 2,
+        "title": "SAMSUNG Galaxy F34 5G (Electric Black, 128 GB)",
+        "description": "An apple mobile which is nothing like apple",
+        "warranty": "1 Year Manufacturer Warranty for Device and 6 Months Manufacturer Warranty for In-Box Accessories",
+        "price": "24,499",
+        "discountPercentage": "16,499",
+        "rating": 4.69,
+        "stock": 94,
+        "brand": "Apple",
+        "category": "smartphones",
+        "thumbnail": "...",
+        "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/v/r/8/-original-imagtywatxffk3yh.jpeg?q=70"
+      },{
+        "id": 3,
+        "title": "Nothing Phone (2) (Dark Grey, 512 GB)",
+        "description": "An apple mobile which is nothing like apple",
+        "warranty": "1 Year Manufacturing Warranty",
+        "price": "59,999",
+        "discountPercentage": "49,999",
+        "rating": 4.69,
+        "stock": 94,
+        "brand": "Nothing",
+        "category": "smartphones",
+        "thumbnail": "...",
+        "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/u/m/b/-original-imagrdefbw6bhbjr.jpeg?q=70"
+      },{
+        "id": 4,
+        "title": "POCO M6 Pro 5G (Power Black, 128 GB)",
+        "description": "An apple mobile which is nothing like apple",
+        "warranty": "1 Year Manufacturer Warranty for Phone and 6 Months Warranty for In the Box Accessories",
+        "price": "16,999",
+        "discountPercentage": "11,999",
+        "rating": 4.69,
+        "stock": 94,
+        "brand": "Nothing",
+        "category": "smartphones",
+        "thumbnail": "...",
+        "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/d/h/q/m6-pro-5g-mzb0eprin-poco-original-imags3e7vewsafst.jpeg?q=70"
+      },{
+        "id": 5,
+        "title": "APPLE iPhone 14 (Blue, 128 GB)",
+        "description": "An apple mobile which is nothing like apple",
+        "warranty": "1 Year Warranty for Phone and 6 Months Warranty for In-Box Accessories",
+        "price": "69,999",
+        "discountPercentage": "59,999",
+        "rating": 4.69,
+        "stock": 94,
+        "brand": "Nothing",
+        "category": "smartphones",
+        "thumbnail": "...",
+        "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/3/5/l/-original-imaghx9qmgqsk9s4.jpeg?q=70"
+      },{
+        "id": 6,
+        "title": "vivo T2x 5G (Marine Blue, 128 GB)",
+        "description": "An apple mobile which is nothing like apple",
+        "warranty": "1 Year of Device & 6 Months for Inbox Accessories",
+        "price": "18,999",
+        "discountPercentage": "12,999",
+        "rating": 4.69,
+        "stock": 94,
+        "brand": "Nothing",
+        "category": "smartphones",
+        "thumbnail": "...",
+        "image": "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/k/u/n/-original-imagzjhwtfthcmzz.jpeg?q=70"
+      }
+    ],
+    "total": 100,
+    "skip": 0,
+    "limit": 30
+  }
+   

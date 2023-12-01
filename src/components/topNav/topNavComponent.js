@@ -14,8 +14,7 @@ const TopNavComponent = (props) => {
         { label: 'More', link: "#" },
         { label: 'Cart', link: "#" }
     ]
-    console.log('11111');
-    console.log("props: ", props)
+    
     const { cartCount, cartItems } = props;
 
     return (
@@ -42,12 +41,11 @@ const TopNavComponent = (props) => {
                             <div className="other_link">
                                 <a href={item.link} key={index}>
                                     { item.label === "Cart" }
-                                    
+
                                     <span> {item.label} </span>
                                     {
                                         item.label === "Cart"
                                             ? <Button
-                                                className="circle"
                                                 type="button"
                                                 id="PopoverClick">{cartCount}</Button>
                                             : null

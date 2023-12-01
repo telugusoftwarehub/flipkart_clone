@@ -20,7 +20,8 @@ const ProductsHoc = (Title) => {
         fetch("./response/products_list.json")
             .then((res) => res.json())
             .then((response) => {
-                setProductsList(response.data);
+                console.log('response: ', response)
+                setProductsList(response.products);
             })
     }, [])
 
@@ -40,19 +41,23 @@ const ProductsHoc = (Title) => {
                         />
                         <CardBody>
                             <CardTitle tag="h5">
-                                <Title title={item.name} />
+                                <Title title={item.title} />
                             </CardTitle>
                             <CardSubtitle
                                 className="mb-2 text-muted"
                                 tag="h6"
                             >
-                                Card subtitle
+                                {item.warranty}
                             </CardSubtitle>
                             <CardText>
-                                Some quick example text to build on the card title and make up the bulk of the card‘s content.
+                                <s>{item.price}</s>
+                                {item.discountPercentage}
                             </CardText>
                             <Button onClick={() => addToCart(item)}>
                                 Add to Card
+                            </Button>
+                            <Button>
+                                Buy
                             </Button>
                         </CardBody>
                     </Card>

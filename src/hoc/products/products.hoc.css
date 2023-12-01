@@ -1,5 +1,13 @@
 .cardSection {
-    width: 24%;
-    margin-right: 5px;
-    margin-bottom: 5px;
+    width: 30%;
+    margin: 5px 10px;
+    border: none;
+}
+
+.cardSection h2{
+    font-size: 16px;
+}
+
+.cardSection h6{
+    font-size: 12px;
 }

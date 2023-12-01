@@ -1,5 +1,7 @@
 const INCREMENT = "INCREMENT";
+const QTYINCREMENT = "QTYINCREMENT";
 const DECREMENT = "DECREMENT";
+const QTYDECREMENT = "QTYDECREMENT";
 const ADDTOCART = "ADDTOCART";
 
 const incrementCount = () => ({
@@ -8,6 +10,16 @@ const incrementCount = () => ({
 
 const decrementCount = () => ({
     type: DECREMENT
+})
+
+const qtyIncrementCount = (product) => ({
+    type: QTYINCREMENT,
+    product
+})
+
+const qtyDecrementCount = (product) => ({
+    type: QTYDECREMENT,
+    product
 })
 
 const shoppingCartCountIncrement = () => {
@@ -27,8 +39,12 @@ export {
     INCREMENT,
     DECREMENT,
     ADDTOCART,
+    QTYINCREMENT,
+    QTYDECREMENT,
     incrementCount,
     decrementCount,
     shoppingCartCountIncrement,
-    addToCartItem
+    addToCartItem,
+    qtyIncrementCount,
+    qtyDecrementCount
 }

@@ -13,16 +13,6 @@ import NavBar from '../../components/nav';
 const AllProductsPage = (props) => {
     const productsList = ProductsHoc(Title);
     
-    // const [count, setCount] = useState(0);
-
-    // const countIncrement = () => {
-    //     setCount(count+1);
-    // }
-
-    // const countDecrement = () => {
-    //     setCount(count-1);
-    // }
-
     return <>
         <div className="stickyNav">
             <TopNav />
@@ -32,16 +22,9 @@ const AllProductsPage = (props) => {
         <Container>
             <div className="productsView pt_60">
                 {productsList()}
-                {/* <p>{props.count && props.count}</p>
-            <button onClick={() => props.countIncrement()}>Count Increment</button>
-            <button onClick={() => props.decrementCount()}>Count Decrement</button> */}
             </div>
         </Container>
     </>
 }
 
-const mapStateToProps = (state) => {}
-
-const mapDispatchToProps = (dispatch) => ({})
-
-export default connect(mapStateToProps, mapDispatchToProps)(AllProductsPage);
+export default AllProductsPage;

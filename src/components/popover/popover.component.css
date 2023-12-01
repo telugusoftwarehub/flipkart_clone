@@ -1,0 +1,16 @@
+.cartItem {
+    display: grid;
+    grid-template-columns: 65% 20% 15%;
+}
+
+.cartItem button {
+    border: none;
+    background: none;
+    margin-right: 2px;
+}
+
+.cartItem .label {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
